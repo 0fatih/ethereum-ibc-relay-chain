@@ -14,7 +14,8 @@ test:
 .PHONY: submodule
 submodule:
 	git submodule update --init
-	cd ./yui-ibc-solidity && npm install
+	cd ./yui-ibc-solidity && git pull origin main && git checkout main
+# npm install
 
 .PHONY: compile
 compile:
