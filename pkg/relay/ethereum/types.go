@@ -1,11 +1,11 @@
 package ethereum
 
 import (
+	"github.com/0fatih/ethereum-ibc-relay-chain/pkg/contract/ibchandler"
 	connectiontypes "github.com/cosmos/ibc-go/v7/modules/core/03-connection/types"
 	channeltypes "github.com/cosmos/ibc-go/v7/modules/core/04-channel/types"
 	commitmenttypes "github.com/cosmos/ibc-go/v7/modules/core/23-commitment/types"
 	"github.com/cosmos/ibc-go/v7/modules/core/exported"
-	"github.com/datachainlab/ethereum-ibc-relay-chain/pkg/contract/ibchandler"
 )
 
 func connectionEndToPB(conn ibchandler.ConnectionEndData) connectiontypes.ConnectionEnd {

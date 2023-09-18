@@ -13,7 +13,7 @@ import (
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 	gethtypes "github.com/ethereum/go-ethereum/core/types"
 
-	"github.com/datachainlab/ethereum-ibc-relay-chain/pkg/contract/ibchandler"
+	"github.com/0fatih/ethereum-ibc-relay-chain/pkg/contract/ibchandler"
 )
 
 // SendMsgs sends msgs to the chain

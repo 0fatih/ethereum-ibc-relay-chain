@@ -11,7 +11,7 @@ import (
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
 
-	"github.com/datachainlab/ethereum-ibc-relay-chain/pkg/contract/ibchandler"
+	"github.com/0fatih/ethereum-ibc-relay-chain/pkg/contract/ibchandler"
 	"github.com/hyperledger-labs/yui-relayer/core"
 )
 

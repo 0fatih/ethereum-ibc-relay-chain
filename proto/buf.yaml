@@ -1,5 +1,5 @@
 version: v1
-name: buf.build/datachainlab/ethereum-ibc-relay-chain
+name: buf.build/0fatih/ethereum-ibc-relay-chain
 deps:
   - buf.build/cosmos/gogo-proto
   - buf.build/cosmos/ibc

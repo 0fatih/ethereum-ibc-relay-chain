@@ -17,9 +17,9 @@ import (
 	ibcexported "github.com/cosmos/ibc-go/v7/modules/core/exported"
 	"github.com/ethereum/go-ethereum/accounts/abi/bind"
 
-	"github.com/datachainlab/ethereum-ibc-relay-chain/pkg/client"
-	"github.com/datachainlab/ethereum-ibc-relay-chain/pkg/contract/ibchandler"
-	"github.com/datachainlab/ethereum-ibc-relay-chain/pkg/wallet"
+	"github.com/0fatih/ethereum-ibc-relay-chain/pkg/client"
+	"github.com/0fatih/ethereum-ibc-relay-chain/pkg/contract/ibchandler"
+	"github.com/0fatih/ethereum-ibc-relay-chain/pkg/wallet"
 	"github.com/hyperledger-labs/yui-relayer/core"
 )
 
